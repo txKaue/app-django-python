@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-b%&wd#=x5y3!j2tt+cq=(6vq(k9p8kq-9f2z_=z5^89t9u&6_z
 DEBUG = os.environ.get('PRODUCTION_ENVIRONMENT','').lower()  != 'true'
 
 ALLOWED_HOSTS = [
-    os.environ.get('APP_ADRESS','').lower(),
+    os.environ.get('APP_ADDRESS','').lower(),
     'localhost',
     '127.0.0.1'
 ]
